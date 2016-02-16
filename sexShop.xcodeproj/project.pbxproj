@@ -18,6 +18,7 @@
 		26ABD14A1C6CEB2A007914B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ABD1491C6CEB2A007914B3 /* CoreGraphics.framework */; };
 		26ABD14C1C6CEBEE007914B3 /* xx.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 26ABD14B1C6CEBEE007914B3 /* xx.mp4 */; };
 		DB5950671C7304E800C9818D /* bruno.mov in Resources */ = {isa = PBXBuildFile; fileRef = DB5950661C7304E700C9818D /* bruno.mov */; };
+		DB59506B1C7309CF00C9818D /* Popup.m in Sources */ = {isa = PBXBuildFile; fileRef = DB59506A1C7309CF00C9818D /* Popup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		26ABD1491C6CEB2A007914B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		26ABD14B1C6CEBEE007914B3 /* xx.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = xx.mp4; sourceTree = "<group>"; };
 		DB5950661C7304E700C9818D /* bruno.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = bruno.mov; sourceTree = "<group>"; };
+		DB5950691C7309CF00C9818D /* Popup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Popup.h; sourceTree = "<group>"; };
+		DB59506A1C7309CF00C9818D /* Popup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Popup.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,7 @@
 		26ABD12D1C6CE94C007914B3 /* sexShop */ = {
 			isa = PBXGroup;
 			children = (
+				DB5950681C7309CF00C9818D /* Popup */,
 				DB5950661C7304E700C9818D /* bruno.mov */,
 				26ABD14B1C6CEBEE007914B3 /* xx.mp4 */,
 				26ABD1451C6CE993007914B3 /* DB */,
@@ -94,6 +98,15 @@
 				26ABD12F1C6CE94C007914B3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB5950681C7309CF00C9818D /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				DB5950691C7309CF00C9818D /* Popup.h */,
+				DB59506A1C7309CF00C9818D /* Popup.m */,
+			);
+			path = Popup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +185,7 @@
 			files = (
 				26ABD1361C6CE94C007914B3 /* ViewController.m in Sources */,
 				26ABD1331C6CE94C007914B3 /* AppDelegate.m in Sources */,
+				DB59506B1C7309CF00C9818D /* Popup.m in Sources */,
 				26ABD1301C6CE94C007914B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
