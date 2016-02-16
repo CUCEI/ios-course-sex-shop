@@ -13,6 +13,11 @@
 		26ABD1391C6CE94C007914B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26ABD1371C6CE94C007914B3 /* Main.storyboard */; };
 		26ABD13B1C6CE94C007914B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26ABD13A1C6CE94C007914B3 /* Assets.xcassets */; };
 		26ABD13E1C6CE94C007914B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26ABD13C1C6CE94C007914B3 /* LaunchScreen.storyboard */; };
+		26ABD1461C6CE993007914B3 /* DB in Resources */ = {isa = PBXBuildFile; fileRef = 26ABD1451C6CE993007914B3 /* DB */; };
+		26ABD1481C6CEB14007914B3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ABD1471C6CEB14007914B3 /* AVFoundation.framework */; };
+		26ABD14A1C6CEB2A007914B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ABD1491C6CEB2A007914B3 /* CoreGraphics.framework */; };
+		26ABD14C1C6CEBEE007914B3 /* xx.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 26ABD14B1C6CEBEE007914B3 /* xx.mp4 */; };
+		DB5950671C7304E800C9818D /* bruno.mov in Resources */ = {isa = PBXBuildFile; fileRef = DB5950661C7304E700C9818D /* bruno.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		26ABD13A1C6CE94C007914B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26ABD13D1C6CE94C007914B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26ABD13F1C6CE94C007914B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26ABD1451C6CE993007914B3 /* DB */ = {isa = PBXFileReference; lastKnownFileType = file; path = DB; sourceTree = "<group>"; };
+		26ABD1471C6CEB14007914B3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		26ABD1491C6CEB2A007914B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26ABD14B1C6CEBEE007914B3 /* xx.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = xx.mp4; sourceTree = "<group>"; };
+		DB5950661C7304E700C9818D /* bruno.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = bruno.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26ABD14A1C6CEB2A007914B3 /* CoreGraphics.framework in Frameworks */,
+				26ABD1481C6CEB14007914B3 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +54,8 @@
 		26ABD1221C6CE94C007914B3 = {
 			isa = PBXGroup;
 			children = (
+				26ABD1491C6CEB2A007914B3 /* CoreGraphics.framework */,
+				26ABD1471C6CEB14007914B3 /* AVFoundation.framework */,
 				26ABD12D1C6CE94C007914B3 /* sexShop */,
 				26ABD12C1C6CE94C007914B3 /* Products */,
 			);
@@ -58,6 +72,9 @@
 		26ABD12D1C6CE94C007914B3 /* sexShop */ = {
 			isa = PBXGroup;
 			children = (
+				DB5950661C7304E700C9818D /* bruno.mov */,
+				26ABD14B1C6CEBEE007914B3 /* xx.mp4 */,
+				26ABD1451C6CE993007914B3 /* DB */,
 				26ABD1311C6CE94C007914B3 /* AppDelegate.h */,
 				26ABD1321C6CE94C007914B3 /* AppDelegate.m */,
 				26ABD1341C6CE94C007914B3 /* ViewController.h */,
@@ -110,6 +127,7 @@
 				TargetAttributes = {
 					26ABD12A1C6CE94C007914B3 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 243TSPCD92;
 					};
 				};
 			};
@@ -136,9 +154,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26ABD14C1C6CEBEE007914B3 /* xx.mp4 in Resources */,
+				26ABD1461C6CE993007914B3 /* DB in Resources */,
 				26ABD13E1C6CE94C007914B3 /* LaunchScreen.storyboard in Resources */,
 				26ABD13B1C6CE94C007914B3 /* Assets.xcassets in Resources */,
 				26ABD1391C6CE94C007914B3 /* Main.storyboard in Resources */,
+				DB5950671C7304E800C9818D /* bruno.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +282,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = sexShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.udg.cucei.cuceimobile.sexShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -272,10 +297,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = sexShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.udg.cucei.cuceimobile.sexShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -298,6 +327,7 @@
 				26ABD1441C6CE94C007914B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
